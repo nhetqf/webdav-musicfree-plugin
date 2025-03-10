@@ -1,0 +1,30 @@
+{
+  "name": "webdav-musicfree-plugin",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [
+    "musicfree",
+    "plugin",
+    "webdav",
+    "cover",
+    "lyrics"
+  ],
+  "author": "张家辉",
+  "license": "ISC",
+  "description": "一个支持从 WebDAV 源获取音乐，并且能提取封面和歌词的 MusicFree 插件。",
+  "dependencies": {
+    "music-metadata": "^11.0.1",
+    "webdav": "^5.3.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "babel-loader": "^9.1.2"
+  }
+}
